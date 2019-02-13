@@ -1,0 +1,17 @@
+{
+  "name": "ski-jumping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/*.test.js",
+    "test:watch": "onchange \"./src/*.js\" -- npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "onchange": "^5.2.0"
+  }
+}
